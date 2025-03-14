@@ -1,0 +1,22 @@
+
+  
+
+  th, td {
+    border-left: 1px solid black; /* Adds vertical borders */
+    border-top: 1px solid black;  /* Adds horizontal borders */
+    padding: 8px;                /* Adds padding to cells */
+    text-align: center;          /* Centers text horizontally in both th and td */
+  }
+  
+  td:first-child, th:first-child {
+    border-left: none; /* Removes the left border of the first column */
+  }
+  
+  tr:first-child td {
+    border-top: none; /* Removes the top border of the first row */
+  }
+  
+  input[type="date"] {
+    margin-top: 8px; /* Optional: Adds spacing between the input and surrounding text */
+  }
+  
