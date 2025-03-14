@@ -1,18 +1,29 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import NavBar from "./NavBar";
 import { Assignment } from "../interface/Assignment";
 import { makeAssignments } from "../utils";
 import { AssignmentWithGrade } from "../interface/AssignmentWithGrade";
+import data from '../data.json'
 import LastUpdate from "./LastUpdate";
 
 function GradeCalculator() {
-    const periods = ["1A", "2A", "4A", "1B", "2B", "3B", "4B"]
+    const periods = data["Periods"]
     const [activePeriod, setActivePeriod] = useState<string>(periods[0])
     const [activeAssignments, setActiveAssignments] = useState<Assignment[]>(makeAssignments(activePeriod))
     const [assignmentsWithGrades, setAssignmentsWithGrades] = useState<AssignmentWithGrade[]>(makeAssignmentsWithGrades(activeAssignments))
     
+    useEffect(() => {
+        const newActiveAssignments = makeAssignments(activePeriod)
+        setActiveAssignments(newActiveAssignments)
+        setAssignmentsWithGrades(makeAssignmentsWithGrades(newActiveAssignments))
+    }, [activePeriod]);
+          
     return <div>
-        <NavBar boldedWord={"Grade Calculator"} />
+            <NavBar boldedWord={"Grade Calculator"} />
+            <div className="tab">
+                {periods.map(p => <button className="tab-links" onClick={() => {setActivePeriod(p)}}>{p}</button>)}
+            </div>
+            <h2>{`Period ${activePeriod}'s Assignments`}</h2>
             <table>
                 <tr>
                     <td><b>Name</b></td>
@@ -36,8 +47,6 @@ function GradeCalculator() {
         function textOnChange(event: React.ChangeEvent<HTMLInputElement>, index: number)
         {
             const value = Number(event.target.value);
-            console.log(value)
-
             const newAssignmentsWithGrades: AssignmentWithGrade[] = []
             for(let i = 0; i < assignmentsWithGrades.length; i++)
             {

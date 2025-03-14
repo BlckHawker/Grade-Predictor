@@ -10,7 +10,7 @@ import LastUpdate from './LastUpdate';
 
 
 const AssignmentWorth = () => {
-    const periods = ["1A", "2A", "4A", "1B", "2B", "3B", "4B"]
+    const periods = data["Periods"]
     const [activePeriod, setActivePeriod] = useState<string>(periods[0])
     const [activeAssignments, setActiveAssignments] = useState<Assignment[]>(makeAssignments(activePeriod))
     const [currentDate, setCurrentDate] = useState<Date>(getDate(Date.now()))
