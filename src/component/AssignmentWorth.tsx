@@ -6,6 +6,7 @@ import NavBar from './NavBar';
 import { useEffect, useState } from 'react';
 import { Assignment } from '../interface/Assignment';
 import { makeAssignments } from '../utils';
+import LastUpdate from './LastUpdate';
 
 
 const AssignmentWorth = () => {
@@ -56,6 +57,7 @@ const AssignmentWorth = () => {
                     </table>
                 </div>
             ))}
+            <LastUpdate/>
         </div>
 
 

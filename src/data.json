@@ -1,337 +1,341 @@
-[
-    {
-        "1A": 
-        [
-            {
-                "Name": "Extra Credit #1",
-                "Start Date": "02/05/2025",
-                "Due Date": "02/10/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #2",
-                "Start Date": "02/14/2025",
-                "Due Date": "02/20/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #3",
-                "Start Date": "02/20/2025",
-                "Due Date": "02/24/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #4",
-                "Start Date": "02/24/2025",
-                "Due Date": "03/04/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 3
-            },
-            {
-                "Name": "Assignment #1",
-                "Start Date": "02/24/2025",
-                "Due Date": "02/26/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #2",
-                "Start Date": "02/28/2025",
-                "Due Date": "03/06/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #3",
-                "Start Date": "03/10/2025",
-                "Due Date": "03/10/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            }
-        ]
-    },
-    {
-        "2A": 
-        [
-            {
-                "Name": "Extra Credit #1",
-                "Start Date": "02/05/2025",
-                "Due Date": "02/10/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #2",
-                "Start Date": "02/14/2025",
-                "Due Date": "02/20/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #3",
-                "Start Date": "02/20/2025",
-                "Due Date": "02/24/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #4",
-                "Start Date": "02/24/2025",
-                "Due Date": "03/04/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 3
-            },
-            {
-                "Name": "Assignment #1",
-                "Start Date": "02/24/2025",
-                "Due Date": "02/26/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #2",
-                "Start Date": "02/28/2025",
-                "Due Date": "03/06/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #3",
-                "Start Date": "03/10/2025",
-                "Due Date": "03/10/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            }
-        ]
-    },
-    {
-        "4A": 
-        [
-            {
-                "Name": "Extra Credit #1",
-                "Start Date": "02/05/2025",
-                "Due Date": "02/10/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #2",
-                "Start Date": "02/14/2025",
-                "Due Date": "02/20/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #3",
-                "Start Date": "02/20/2025",
-                "Due Date": "02/24/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #4",
-                "Start Date": "02/24/2025",
-                "Due Date": "03/04/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 3
-            },
-            {
-                "Name": "Assignment #1",
-                "Start Date": "02/24/2025",
-                "Due Date": "02/26/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #2",
-                "Start Date": "02/28/2025",
-                "Due Date": "03/06/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #3",
-                "Start Date": "03/10/2025",
-                "Due Date": "03/10/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            }
-        ]
-    },
-    {
-        "1B": [
-            {
-                "Name": "Assignment #1",
-                "Start Date": "03/11/2025",
-                "Due Date": "03/17/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            }
-        ]
-    },
-    {
-        "2B": 
-        [
-            {
-                "Name": "Extra Credit #1",
-                "Start Date": "02/07/2025",
-                "Due Date": "02/11/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #2",
-                "Start Date": "02/11/2025",
-                "Due Date": "02/19/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #3",
-                "Start Date": "02/25/2025",
-                "Due Date": "03/03/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #4",
-                "Start Date": "02/25/2025",
-                "Due Date": "03/05/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 3
-            },
-            {
-                "Name": "Assignment #1",
-                "Start Date": "02/25/2025",
-                "Due Date": "02/27/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #2",
-                "Start Date": "02/27/2025",
-                "Due Date": "03/05/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #3",
-                "Start Date": "03/11/2025",
-                "Due Date": "03/11/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            }
-        ]
-    },
-    {
-        "3B": 
-        [
-            {
-                "Name": "Extra Credit #1",
-                "Start Date": "02/07/2025",
-                "Due Date": "02/11/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #2",
-                "Start Date": "02/11/2025",
-                "Due Date": "02/19/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #3",
-                "Start Date": "02/25/2025",
-                "Due Date": "03/03/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #4",
-                "Start Date": "02/25/2025",
-                "Due Date": "03/05/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 3
-            },
-            {
-                "Name": "Assignment #1",
-                "Start Date": "02/25/2025",
-                "Due Date": "02/27/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #2",
-                "Start Date": "02/27/2025",
-                "Due Date": "03/05/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #3",
-                "Start Date": "03/11/2025",
-                "Due Date": "03/11/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            }
-        ]
-    },
-    {
-        "4B": 
-        [
-            {
-                "Name": "Extra Credit #1",
-                "Start Date": "02/07/2025",
-                "Due Date": "02/11/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #2",
-                "Start Date": "02/11/2025",
-                "Due Date": "02/19/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #3",
-                "Start Date": "02/25/2025",
-                "Due Date": "03/03/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 1
-            },
-            {
-                "Name": "Extra Credit #4",
-                "Start Date": "02/25/2025",
-                "Due Date": "03/05/2025",
-                "Is Extra Credit": true,
-                "Extra Credit Worth": 3
-            },
-            {
-                "Name": "Assignment #1",
-                "Start Date": "02/25/2025",
-                "Due Date": "02/27/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #2",
-                "Start Date": "02/27/2025",
-                "Due Date": "03/05/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            },
-            {
-                "Name": "Assignment #3",
-                "Start Date": "03/11/2025",
-                "Due Date": "03/11/2025",
-                "Is Extra Credit": false,
-                "Extra Credit Worth": -1
-            }
-        ]
-    }
-]
+{
+    "Classes": [
+        {
+           "1A": 
+           [
+               {
+                   "Name": "Extra Credit #1",
+                   "Start Date": "02/05/2025",
+                   "Due Date": "02/10/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #2",
+                   "Start Date": "02/14/2025",
+                   "Due Date": "02/20/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #3",
+                   "Start Date": "02/20/2025",
+                   "Due Date": "02/24/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #4",
+                   "Start Date": "02/24/2025",
+                   "Due Date": "03/04/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 3
+               },
+               {
+                   "Name": "Assignment #1",
+                   "Start Date": "02/24/2025",
+                   "Due Date": "02/26/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #2",
+                   "Start Date": "02/28/2025",
+                   "Due Date": "03/06/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #3",
+                   "Start Date": "03/10/2025",
+                   "Due Date": "03/10/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               }
+           ]
+       },
+       {
+           "2A": 
+           [
+               {
+                   "Name": "Extra Credit #1",
+                   "Start Date": "02/05/2025",
+                   "Due Date": "02/10/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #2",
+                   "Start Date": "02/14/2025",
+                   "Due Date": "02/20/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #3",
+                   "Start Date": "02/20/2025",
+                   "Due Date": "02/24/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #4",
+                   "Start Date": "02/24/2025",
+                   "Due Date": "03/04/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 3
+               },
+               {
+                   "Name": "Assignment #1",
+                   "Start Date": "02/24/2025",
+                   "Due Date": "02/26/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #2",
+                   "Start Date": "02/28/2025",
+                   "Due Date": "03/06/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #3",
+                   "Start Date": "03/10/2025",
+                   "Due Date": "03/10/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               }
+           ]
+       },
+       {
+           "4A": 
+           [
+               {
+                   "Name": "Extra Credit #1",
+                   "Start Date": "02/05/2025",
+                   "Due Date": "02/10/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #2",
+                   "Start Date": "02/14/2025",
+                   "Due Date": "02/20/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #3",
+                   "Start Date": "02/20/2025",
+                   "Due Date": "02/24/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #4",
+                   "Start Date": "02/24/2025",
+                   "Due Date": "03/04/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 3
+               },
+               {
+                   "Name": "Assignment #1",
+                   "Start Date": "02/24/2025",
+                   "Due Date": "02/26/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #2",
+                   "Start Date": "02/28/2025",
+                   "Due Date": "03/06/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #3",
+                   "Start Date": "03/10/2025",
+                   "Due Date": "03/10/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               }
+           ]
+       },
+       {
+           "1B": [
+               {
+                   "Name": "Assignment #1",
+                   "Start Date": "03/11/2025",
+                   "Due Date": "03/17/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               }
+           ]
+       },
+       {
+           "2B": 
+           [
+               {
+                   "Name": "Extra Credit #1",
+                   "Start Date": "02/07/2025",
+                   "Due Date": "02/11/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #2",
+                   "Start Date": "02/11/2025",
+                   "Due Date": "02/19/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #3",
+                   "Start Date": "02/25/2025",
+                   "Due Date": "03/03/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #4",
+                   "Start Date": "02/25/2025",
+                   "Due Date": "03/05/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 3
+               },
+               {
+                   "Name": "Assignment #1",
+                   "Start Date": "02/25/2025",
+                   "Due Date": "02/27/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #2",
+                   "Start Date": "02/27/2025",
+                   "Due Date": "03/05/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #3",
+                   "Start Date": "03/11/2025",
+                   "Due Date": "03/11/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               }
+           ]
+       },
+       {
+           "3B": 
+           [
+               {
+                   "Name": "Extra Credit #1",
+                   "Start Date": "02/07/2025",
+                   "Due Date": "02/11/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #2",
+                   "Start Date": "02/11/2025",
+                   "Due Date": "02/19/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #3",
+                   "Start Date": "02/25/2025",
+                   "Due Date": "03/03/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #4",
+                   "Start Date": "02/25/2025",
+                   "Due Date": "03/05/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 3
+               },
+               {
+                   "Name": "Assignment #1",
+                   "Start Date": "02/25/2025",
+                   "Due Date": "02/27/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #2",
+                   "Start Date": "02/27/2025",
+                   "Due Date": "03/05/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #3",
+                   "Start Date": "03/11/2025",
+                   "Due Date": "03/11/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               }
+           ]
+       },
+       {
+           "4B": 
+           [
+               {
+                   "Name": "Extra Credit #1",
+                   "Start Date": "02/07/2025",
+                   "Due Date": "02/11/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #2",
+                   "Start Date": "02/11/2025",
+                   "Due Date": "02/19/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #3",
+                   "Start Date": "02/25/2025",
+                   "Due Date": "03/03/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 1
+               },
+               {
+                   "Name": "Extra Credit #4",
+                   "Start Date": "02/25/2025",
+                   "Due Date": "03/05/2025",
+                   "Is Extra Credit": true,
+                   "Extra Credit Worth": 3
+               },
+               {
+                   "Name": "Assignment #1",
+                   "Start Date": "02/25/2025",
+                   "Due Date": "02/27/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #2",
+                   "Start Date": "02/27/2025",
+                   "Due Date": "03/05/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               },
+               {
+                   "Name": "Assignment #3",
+                   "Start Date": "03/11/2025",
+                   "Due Date": "03/11/2025",
+                   "Is Extra Credit": false,
+                   "Extra Credit Worth": -1
+               }
+           ]
+       }
+   ],
+
+   "LastUpdate": 1741982210654
+}

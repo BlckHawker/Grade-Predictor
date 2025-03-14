@@ -1,3 +1,4 @@
+import LastUpdate from "./LastUpdate";
 import NavBar from "./NavBar";
 
 function Home() {
@@ -14,8 +15,8 @@ function Home() {
                 <li>All <u>extra credit</u> will boost your grade by 1% unless stated otherwise. For example if you hae a 90%, and you get a 100 on an extra credit, your final grade will be a 91% </li>
                 <li>If any assignment given past the due date, 5% off will be marked for each day late, including weekends</li>
                 <li>It is your responsibility to hand me assignments either on Google classroom or in person. If I am not in this class, hand it to the main office, and tell them to give it to me</li>
-                <li>If you were absent, talk to me about an extension on what you missed. It's your responsibility on getting an extension. If you ask me for an extension on an assignment that is more than 2 weeks old, I will give you one.</li>
             </ul>
+            <LastUpdate/>
     </div> 
   }
   

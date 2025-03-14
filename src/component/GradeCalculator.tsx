@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import { Assignment } from "../interface/Assignment";
 import { makeAssignments } from "../utils";
 import { AssignmentWithGrade } from "../interface/AssignmentWithGrade";
+import LastUpdate from "./LastUpdate";
 
 function GradeCalculator() {
     const periods = ["1A", "2A", "4A", "1B", "2B", "3B", "4B"]
@@ -29,6 +30,7 @@ function GradeCalculator() {
                     <td><p>{calculateGrade()}%</p></td>
                 </tr>
             </table>
+            <LastUpdate/>
     </div> 
 
         function textOnChange(event: React.ChangeEvent<HTMLInputElement>, index: number)

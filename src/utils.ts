@@ -4,7 +4,7 @@ import data from './data.json'
 function makeAssignments(activePeriod: string): Assignment[]
 {
     const assignments: Assignment[] = [];
-    const assignmentsData: any = data.find(tab => tab[activePeriod as keyof typeof tab]);
+    const assignmentsData: any = data["Classes"].find(tab => tab[activePeriod as keyof typeof tab]);
     const values: any[] = Object.values(assignmentsData)[0] as unknown as any[]
 
     function convertStringToDate(dateStr: string): Date {
