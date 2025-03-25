@@ -11,10 +11,18 @@ function Home() {
             <h2>Syllabus</h2>
             <p>Here is a reminder of my grading policy</p>
             <ul>
-                <li>All <u>required assignments</u> will have the same weight. For example, 2 assignments will be worth 50% each. 4 assignments will be worth 25% each.</li>
-                <li>All <u>extra credit</u> will boost your grade by 1% unless stated otherwise. For example if you hae a 90%, and you get a 100 on an extra credit, your final grade will be a 91% </li>
-                <li>If any assignment given past the due date, 5% off will be marked for each day late, including weekends</li>
-                <li>It is your responsibility to hand me assignments either on Google classroom or in person. If I am not in this class, hand it to the main office, and tell them to give it to me</li>
+                <li>Attendance will be 20% of your grade.</li>
+                <ul>
+                    <li>If you are present or slightly late to class, you will get a 100%</li>
+                    <li>Otherwise, if you have an excused absent or you were marked tardy by another class, you will be exempt from that attendance grade</li>
+                    <li>Otherwise,  you will get a zero for the day.</li>
+                </ul>
+                <li>All assignments will be <u>required</u></li>
+                <ul>
+                    <li>All assignments will have the same amount of weight. For example, 2 assignments will be worth 50% each. 4 assignments will be worth 25% each.</li>
+                    <li>If any assignment given past the due date, 5% off will be marked for each day late, including weekends</li>
+                    <li>It is your responsibility to hand me assignments either on Google classroom or in person. If I am not in this class, hand it to the main office, and tell them to give it to me</li>
+                </ul>
             </ul>
             <LastUpdate/>
     </div> 
