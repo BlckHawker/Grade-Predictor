@@ -33,10 +33,9 @@ const AssignmentWorth = () => {
                     <table className={assignmentStyle.table}>
                             <tr>
                                 <td><b>Name</b></td>
-                                <td><b>Extra Credit</b></td>
-                                <td><b>Extra Credit Worth</b></td>
                                 <td><b>Date Assigned</b></td>
                                 <td><b>Due Date</b></td>
+                                <td><b>Days Late</b></td>
                                 <td><b>Best grade possible</b> <br /> <input
                                     type="date"
                                     id="start"
@@ -45,12 +44,11 @@ const AssignmentWorth = () => {
                                     /></td>
                                     <td></td>
                             </tr>
-                        {activeAssignments.map(a => <tr>
+                        {activeAssignments.filter(a => !a.isAttendance).map(a => <tr>
                                 <td>{a.name}</td>
-                                <td>{a.isExtraCredit ? "Yes" : "No" }</td>
-                                <td>{a.isExtraCredit ? a.extraCreditWorth : "-"}</td>
                                 <td>{a.startDate.toLocaleDateString()}</td>
                                 <td>{a.dueDate.toLocaleDateString()}</td>
+                                <td>{getDaysLate(a["dueDate"])}</td>
                                 <td>{getAssignmentWorth(a["dueDate"])}</td>
                                 </tr>)}
                             
@@ -62,9 +60,8 @@ const AssignmentWorth = () => {
 
 
     );   
-    
 
-    function getAssignmentWorth(assignmentDate: Date)
+    function getDaysLate(assignmentDate: Date): number
     {
         //see how many days it's been since the assignment's due date
         const dayMilliseconds = 1000 * 60 * 60 * 24;
@@ -76,8 +73,15 @@ const AssignmentWorth = () => {
         //otherwise get the amount of days have past
         const daysPastDate = currentDate <= assignmentDate ? 0 :  Math.floor((Math.abs(assignmentCount - currentDateCount)) / dayMilliseconds);
 
+        return daysPastDate;
+    }
+    
+
+    function getAssignmentWorth(assignmentDate: Date)
+    {
         //no need to go above 20
-        const maxDays = Math.min(daysPastDate, 20)
+
+        const maxDays = Math.min(getDaysLate(assignmentDate), 20)
         return `${100 - maxDays * 5}%`;
 
     }

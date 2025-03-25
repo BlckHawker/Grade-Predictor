@@ -1,8 +1,7 @@
 interface Assignment {
     period: string
     name: string,
-    isExtraCredit: boolean,
-    extraCreditWorth: number,
+    isAttendance: boolean
     startDate: Date
     dueDate: Date
 }

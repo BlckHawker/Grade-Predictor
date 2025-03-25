@@ -17,8 +17,7 @@ function makeAssignments(activePeriod: string): Assignment[]
         let assignment: Assignment = {
             period: activePeriod,
             name: assignmentData.Name,
-            isExtraCredit: assignmentData["Is Extra Credit"],
-            extraCreditWorth: assignmentData["Extra Credit Worth"],
+            isAttendance: assignmentData["Is Attendance"],
             startDate: convertStringToDate(assignmentData["Start Date"]),
             dueDate: convertStringToDate(assignmentData["Due Date"])
         }

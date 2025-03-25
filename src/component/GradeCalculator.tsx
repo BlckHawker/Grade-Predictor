@@ -67,26 +67,31 @@ function GradeCalculator() {
 
         function calculateGrade(): number
         {
-            const regularGrades = [];
-            let extraCreditGrade = 0;
+            
+            const assignmentGrades: number[] = [];
+            const attendanceGrades: number[] = [];
 
             for(const assignment of assignmentsWithGrades)
             {
-                //for each assignment, if it's a regular assignment, add it to the arr
-                if(!assignment.assignment.isExtraCredit)
+                //for each assignment, add it to the correct array
+                if(assignment.assignment.isAttendance)
                 {
-                    regularGrades.push(assignment.grade);
+                    attendanceGrades.push(assignment.grade);
                 }
-
-                //otherwise, add it to extra credit grade 
+                
                 else
                 {
-                    extraCreditGrade += assignment.grade / 100;
+                    assignmentGrades.push(assignment.grade);
                 }
             }
 
-            const regularGrade = regularGrades.reduce((a, b) => a + b) / regularGrades.length
-            return Math.floor(regularGrade + extraCreditGrade) 
+            const avg = (arr: number[]) => { return arr.length == 0 ? 0 :  arr.reduce((a, b) => a + b) / arr.length }
+
+            //get the average grade for attendance and assignments.
+            const assignmentGrade = avg(assignmentGrades);
+            const attendanceGrade = avg(attendanceGrades);
+            //Scale to the appropriate number (20% and 80%)
+            return  Math.floor(assignmentGrade * .8 + attendanceGrade * .2);
         }
   }
 
