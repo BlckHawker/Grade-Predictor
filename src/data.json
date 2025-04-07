@@ -9,6 +9,12 @@
           "Is Attendance": false
         },
         {
+          "Name": "Assignment #5",
+          "Start Date": "04/04/2025",
+          "Due Date": "04/11/2025",
+          "Is Attendance": false
+        },
+        {
           "Name": "3/24 Attendance",
           "Start Date": "03/24/2025",
           "Due Date": "03/24/2025",
@@ -30,6 +36,12 @@
           "Name": "4/2 Attendance",
           "Start Date": "04/02/2025",
           "Due Date": "04/02/2025",
+          "Is Attendance": true
+        },
+        {
+          "Name": "4/4 Attendance",
+          "Start Date": "04/04/2025",
+          "Due Date": "04/04/2025",
           "Is Attendance": true
         }
       ]
@@ -43,6 +55,12 @@
           "Is Attendance": false
         },
         {
+          "Name": "Assignment #5",
+          "Start Date": "04/04/2025",
+          "Due Date": "04/11/2025",
+          "Is Attendance": false
+        },
+        {
           "Name": "3/24 Attendance",
           "Start Date": "03/24/2025",
           "Due Date": "03/24/2025",
@@ -64,6 +82,12 @@
           "Name": "4/2 Attendance",
           "Start Date": "04/02/2025",
           "Due Date": "04/02/2025",
+          "Is Attendance": true
+        },
+        {
+          "Name": "4/4 Attendance",
+          "Start Date": "04/04/2025",
+          "Due Date": "04/04/2025",
           "Is Attendance": true
         }
       ]
@@ -77,6 +101,12 @@
           "Is Attendance": false
         },
         {
+          "Name": "Assignment #5",
+          "Start Date": "04/04/2025",
+          "Due Date": "04/11/2025",
+          "Is Attendance": false
+        },
+        {
           "Name": "3/24 Attendance",
           "Start Date": "03/24/2025",
           "Due Date": "03/24/2025",
@@ -99,6 +129,12 @@
           "Start Date": "04/02/2025",
           "Due Date": "04/02/2025",
           "Is Attendance": true
+        },
+        {
+          "Name": "4/4 Attendance",
+          "Start Date": "04/04/2025",
+          "Due Date": "04/04/2025",
+          "Is Attendance": true
         }
       ]
     },
@@ -108,6 +144,12 @@
           "Name": "Assignment #3",
           "Start Date": "03/25/2025",
           "Due Date": "03/27/2025",
+          "Is Attendance": false
+        },
+        {
+          "Name": "Assignment #4",
+          "Start Date": "04/03/2025",
+          "Due Date": "04/11/2025",
           "Is Attendance": false
         },
         {
@@ -126,6 +168,12 @@
           "Name": "4/1 Attendance",
           "Start Date": "04/01/2025",
           "Due Date": "04/01/2025",
+          "Is Attendance": true
+        },
+        {
+          "Name": "4/3 Attendance",
+          "Start Date": "04/03/2025",
+          "Due Date": "04/03/2025",
           "Is Attendance": true
         }
       ]
@@ -139,6 +187,12 @@
           "Is Attendance": false
         },
         {
+          "Name": "Assignment #5",
+          "Start Date": "04/03/2025",
+          "Due Date": "04/11/2025",
+          "Is Attendance": false
+        },
+        {
           "Name": "3/25 Attendance",
           "Start Date": "03/25/2025",
           "Due Date": "03/25/2025",
@@ -154,6 +208,12 @@
           "Name": "4/1 Attendance",
           "Start Date": "04/01/2025",
           "Due Date": "04/01/2025",
+          "Is Attendance": true
+        },
+        {
+          "Name": "4/3 Attendance",
+          "Start Date": "04/03/2025",
+          "Due Date": "04/03/2025",
           "Is Attendance": true
         }
       ]
@@ -167,31 +227,9 @@
           "Is Attendance": false
         },
         {
-          "Name": "3/25 Attendance",
-          "Start Date": "03/25/2025",
-          "Due Date": "03/25/2025",
-          "Is Attendance": true
-        },
-        {
-          "Name": "3/27 Attendance",
-          "Start Date": "03/27/2025",
-          "Due Date": "03/27/2025",
-          "Is Attendance": true
-        },
-        {
-          "Name": "4/1 Attendance",
-          "Start Date": "04/01/2025",
-          "Due Date": "04/01/2025",
-          "Is Attendance": true
-        }
-      ]
-    },
-    {
-      "4B": [
-        {
-          "Name": "Assignment #4",
-          "Start Date": "03/25/2025",
-          "Due Date": "03/27/2025",
+          "Name": "Assignment #5",
+          "Start Date": "04/03/2025",
+          "Due Date": "04/11/2025",
           "Is Attendance": false
         },
         {
@@ -211,11 +249,57 @@
           "Start Date": "04/01/2025",
           "Due Date": "04/01/2025",
           "Is Attendance": true
+        },
+        {
+          "Name": "4/3 Attendance",
+          "Start Date": "04/03/2025",
+          "Due Date": "04/03/2025",
+          "Is Attendance": true
+        }
+      ]
+    },
+    {
+      "4B": [
+        {
+          "Name": "Assignment #4",
+          "Start Date": "03/25/2025",
+          "Due Date": "03/27/2025",
+          "Is Attendance": false
+        },
+        {
+          "Name": "Assignment #5",
+          "Start Date": "04/03/2025",
+          "Due Date": "04/11/2025",
+          "Is Attendance": false
+        },
+        {
+          "Name": "3/25 Attendance",
+          "Start Date": "03/25/2025",
+          "Due Date": "03/25/2025",
+          "Is Attendance": true
+        },
+        {
+          "Name": "3/27 Attendance",
+          "Start Date": "03/27/2025",
+          "Due Date": "03/27/2025",
+          "Is Attendance": true
+        },
+        {
+          "Name": "4/1 Attendance",
+          "Start Date": "04/01/2025",
+          "Due Date": "04/01/2025",
+          "Is Attendance": true
+        },
+        {
+          "Name": "4/3 Attendance",
+          "Start Date": "04/03/2025",
+          "Due Date": "04/03/2025",
+          "Is Attendance": true
         }
       ]
     }
   ],
 
   "Periods": ["1A", "2A", "4A", "1B", "2B", "3B", "4B"],
-  "LastUpdate": 1743595558011
+  "LastUpdate": 1744029635292
 }
