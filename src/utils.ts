@@ -4,16 +4,12 @@ import data from './data.json'
 function makeAssignments(activePeriod: string): Assignment[]
 {
     const assignments: Assignment[] = [];
-    const assignmentsData: any = data["Classes"].find(tab => tab[activePeriod as keyof typeof tab]);
-    const values: any[] = Object.values(assignmentsData)[0] as unknown as any[]
-
-    function convertStringToDate(dateStr: string): Date {
-        const [month, day, year] = dateStr.split('/').map(part => parseInt(part, 10));
-        return new Date(year, month - 1, day);
-    }
-    
-    for(const assignmentData of values)
+    const assignmentIdObject: any = data["Classes"].find(tab => tab[activePeriod as keyof typeof tab]);
+    const assignmentIds: string[] = Object.values(assignmentIdObject)[0] as unknown as string[]
+    const assignmentObjects = data["Assignments"]
+    for(const id of assignmentIds)
     {
+        let assignmentData = assignmentObjects.find(a => a.ID == id) as any;
         let assignment: Assignment = {
             period: activePeriod,
             name: assignmentData.Name,
@@ -25,7 +21,27 @@ function makeAssignments(activePeriod: string): Assignment[]
 
         assignments.push(assignment)
     }
+
     return assignments;
 }
+
+//used to get the string of the id of an assignment in data.json
+function generateRandomString(length: number = 26): string {
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    let result = '';
+    
+    for (let i = 0; i < length; i++) {
+      const randomIndex = Math.floor(Math.random() * characters.length);
+      result += characters[randomIndex];
+    }
+  
+    return result;
+  }
+
+  function convertStringToDate(dateStr: string): Date {
+    const [month, day, year] = dateStr.split('/').map(part => parseInt(part, 10));
+    return new Date(year, month - 1, day);
+}
+
 
 export {makeAssignments}
