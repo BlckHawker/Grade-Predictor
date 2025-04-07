@@ -17,6 +17,7 @@ function makeAssignments(activePeriod: string): Assignment[]
         let assignment: Assignment = {
             period: activePeriod,
             name: assignmentData.Name,
+            link: assignmentData.Link,
             isAttendance: assignmentData["Is Attendance"],
             startDate: convertStringToDate(assignmentData["Start Date"]),
             dueDate: convertStringToDate(assignmentData["Due Date"])

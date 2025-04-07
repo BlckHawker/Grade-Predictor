@@ -5,6 +5,7 @@ import { makeAssignments } from "../utils";
 import { AssignmentWithGrade } from "../interface/AssignmentWithGrade";
 import data from '../data.json'
 import LastUpdate from "./LastUpdate";
+import { Link } from "react-router-dom";
 
 function GradeCalculator() {
     const periods = data["Periods"]
@@ -32,7 +33,8 @@ function GradeCalculator() {
                 </tr>
                 {assignmentsWithGrades.map((a, index) =>
                 <tr>
-                    <td>{a.assignment.name}</td>
+                    {/* if the assignment is attendance, then it doesn't have a link */}
+                    <td>{a.assignment.isAttendance ? <p>{a.assignment.name}</p> : <Link to={a.assignment.link} target="_blank">{ <p>{a.assignment.name}</p>}</Link>}</td>
                     <td><input type="checkbox" onChange={(e => {
                         const newValue = e.currentTarget.checked;
                         const newActiveAssignments: AssignmentWithGrade[] = assignmentsWithGrades.map((currentAssignment: AssignmentWithGrade, i: number) => ({

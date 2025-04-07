@@ -35,7 +35,7 @@ const AssignmentWorth = () => {
                                 <td><b>Name</b></td>
                                 <td><b>Date Assigned</b></td>
                                 <td><b>Due Date</b></td>
-                                <td><b>Days Late</b></td>
+                               <td><b>Days Late</b></td>
                                 <td><b>Best grade possible</b> <br /> <input
                                     type="date"
                                     id="start"
@@ -45,7 +45,7 @@ const AssignmentWorth = () => {
                                     <td></td>
                             </tr>
                         {activeAssignments.filter(a => !a.isAttendance).map(a => <tr>
-                                <td>{a.name}</td>
+                                <td><Link to={a.link} target="_blank">{ <p>{a.name}</p>}</Link></td>
                                 <td>{a.startDate.toLocaleDateString()}</td>
                                 <td>{a.dueDate.toLocaleDateString()}</td>
                                 <td>{getDaysLate(a["dueDate"])}</td>
