@@ -26,7 +26,7 @@ function makeAssignments(activePeriod: string): Assignment[]
 }
 
 //used to get the string of the id of an assignment in data.json
-function generateRandomString(length: number = 26): string {
+function generateRandomString(length: number = 26) {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
     let result = '';
     
@@ -35,7 +35,7 @@ function generateRandomString(length: number = 26): string {
       result += characters[randomIndex];
     }
   
-    return result;
+    console.log(result)
   }
 
   function convertStringToDate(dateStr: string): Date {
@@ -43,5 +43,5 @@ function generateRandomString(length: number = 26): string {
     return new Date(year, month - 1, day);
 }
 
-
+generateRandomString()
 export {makeAssignments}
