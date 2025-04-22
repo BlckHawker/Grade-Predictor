@@ -35,7 +35,8 @@ function GradeCalculator() {
                 <tr>
                     {/* if the assignment is attendance, then it doesn't have a link */}
                     <td>{a.assignment.isAttendance ? <p>{a.assignment.name}</p> : <Link to={a.assignment.link} target="_blank">{ <p>{a.assignment.name}</p>}</Link>}</td>
-                    <td><input type="checkbox" onChange={(e => {
+                    <td>
+                        <input type="checkbox" onChange={(e => {
                         const newValue = e.currentTarget.checked;
                         const newActiveAssignments: AssignmentWithGrade[] = assignmentsWithGrades.map((currentAssignment: AssignmentWithGrade, i: number) => ({
                             assignment: currentAssignment.assignment,
@@ -43,8 +44,11 @@ function GradeCalculator() {
                             exempted: i === index ? newValue : currentAssignment.exempted,
                         }));
                         setAssignmentsWithGrades(newActiveAssignments)
-                    } )}/></td>
-                    <td><input type="number" min="0" max="100" value={a.grade} disabled={a.exempted} onChange={(event) => textOnChange(event, index)} /></td>
+                    } )}/>
+                    </td>
+                    <td>
+                        <input type="number" min="0" max="100" value={a.grade} disabled={a.exempted} onChange={(event) => textOnChange(event, index)} />
+                    </td>
                 </tr>)
                 }
                 
