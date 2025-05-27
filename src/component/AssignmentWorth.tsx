@@ -81,6 +81,14 @@ const AssignmentWorth = () => {
     {
         //no need to go above 20
 
+        //if assignment is handed in after 05/30/2025, it is late and
+        //no points will be awarded
+        if (getDaysLate(assignmentDate) > 0)
+            return "0%";
+
+        return "100%"
+
+
         const maxDays = Math.min(getDaysLate(assignmentDate), 20)
         return `${100 - maxDays * 5}%`;
 
